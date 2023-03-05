@@ -12,3 +12,6 @@ $$
 \min_{\mu_{p}=c}\sigma_{p}^{2}\text{ or }\max_{\sigma_{p}^{2}=c}\mu_{p}
 $$
 
+
+
+![efficient portfolio](https://user-images.githubusercontent.com/90128043/222964443-59cf0881-2fc4-4479-a7dd-4301e79b62e3.jpg)
