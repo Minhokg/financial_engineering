@@ -22,16 +22,22 @@ A mean and variance of $R$ (a.k.a return and volatility) is as follow:
 
 We need to assume several information about stock $A$ and $B$. Means and Variances are as follow:
 
-1. $\mu_{A}=10,\mu_{B}=5$ (dollar)
-2. $\sigma_{A}=2,\sigma_{B}=2,\sigma_{AB}=1$ (dollar)
+1. $\mu_{A}=9,\mu_{B}=3$ ($)
+2. $\sigma_{A}=2,\sigma_{B}=1,\sigma_{AB}=1$ ($)
 
 If an investor wants to design an efficient portfolio given a return of 6 dollars, below is the condition formula for getting what he wants. 
 
 $$
-\min_{10x_{A}+5x_{B}=6}4x_{A}^{2}+4x_{B}^{2}+2x_{A}x_{B}\times1
+\min_{9x_{A}+3x_{B}=6}4x_{A}^{2}+x_{B}^{2}+2x_{A}x_{B}\times1
 $$
 
-
+This is a simple optimization problem. 
+$$
+\begin{align*}
+x_{B} = 2 - 3x_{A} & \Rrightarrow 4x_{A}^{2}+(2-3x_{A})^{2}+2x_{A}(2-3x_{A})
+                   & =
+\end{align*}
+$$
 ## 3. Realistic example of Efficient Portfolio
 
 In this project, I will tackle korean five companys: 
