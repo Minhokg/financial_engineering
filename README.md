@@ -32,12 +32,14 @@ $$
 $$
 
 This is a simple optimization problem. 
+
 $$
 \begin{align*}
 x_{B}=2-3x_{A}\Longrightarrow & 4x_{A}^{2}\\
 = & 4x_{A}^{2}
 \end{align*}
 $$
+
 ## 3. Realistic example of Efficient Portfolio
 
 In this project, I will tackle korean five companys: 
