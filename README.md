@@ -18,11 +18,8 @@ To understand the above condition formulas vividly, I'm going to set a portfolio
 Let $x_{A}$ and $x_{B}$ as portions of stock A and B each. That is, $x_{A} + x_{B} = 1$. So portfolio $R = x_{A}A + x_{B}B$. 
 A mean and variance of $R$ (a.k.a return and volatility) is as follow:
 1. $\mu_{R}=x_{A}\mu_{A}+x_{B}\mu_{B}$
-2. $Var(R)=x_{A}^{2}\sigma_{A}^{2}+x_{B}^{2}\sigma_{B}^{2}+2x_{A}x_{B}\sigma_{AB}$
+2. $Var(R)=x_{A}^{2}\sigma_{A}^{2}+x_{B}^{2}\sigma_{B}^{2}+2x_{A}x_{B}\sigma_{AB}$, $\sigma_{AB}$ is a covariance of $A$ and $B$. 
 
-$\sigma_{AB}$ is a covariance of $A$ and $B$. 
-
-Among many generated simulations, an efficient portfolio can be selected based on return or risk a project already set. Efficient Portfolios are expressed as an efficient frontier. We will see the efficient frontier line later. 
 
 ## 3. Realistic example of Efficient Portfolio
 
