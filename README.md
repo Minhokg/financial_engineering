@@ -35,10 +35,18 @@ This is a simple optimization problem.
 
 $$
 \begin{align*}
-x_{B}=2-3x_{A}\Longrightarrow & 4x_{A}^{2}\\
-= & 4x_{A}^{2}
+x_{B}=2-3x_{A}\Longrightarrow & 4x_{A}^{2}+(2-3x_{A})^{2}+2x_{A}(2-3x_{A})\\
+= & 7x_{A}^{2}-8x_{A}+4
 \end{align*}
 $$
+
+In summary, what an inverstor has to find is the root of the next formula
+
+$$
+\arg\min7x_{A}^{2}-8x_{A}+4, \hfill \frac{1}{3}\leq x_{A}\leq\frac{2}{3}
+$$
+
+Because $X_{B} = 2 - 3x_{A}$ and $0\leq x_{B} \leq 1$, so the range of $x_{A}$ is like that. Fortunately, the root of the above formula is $\frac{4}{7}$, whici is in the range of $x_{A}$. In conclusion, an efficieint portfolio is comprised of $\frac{4}{7}A$ and $\frac{3}{7}B$
 
 ## 3. Realistic example of Efficient Portfolio
 
