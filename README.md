@@ -34,7 +34,8 @@ $$
 This is a simple optimization problem. 
 $$
 \begin{align*}
-x_{B} = 2 - 3x_{A} & \Rrightarrow 4x_{A}^{2}+(2-3x_{A})^{2}+2x_{A}(2-3x_{A})
+x_{B}=2-3x_{A}\Longrightarrow & 4x_{A}^{2}\\
+= & 4x_{A}^{2}
 \end{align*}
 $$
 ## 3. Realistic example of Efficient Portfolio
