@@ -12,6 +12,11 @@ $$
 \min_{\mu_{p}=c}\sigma_{p}^{2}\text{ or }\max_{\sigma_{p}^{2}=c}\mu_{p}
 $$
 
+To understand the above condition formulas vividly, I'm going to set a portfolio comprised of two virtual stocks: A and B 
+
+Let $x_{A}$ and $x_{B}$ as portions of stock A and B each. That is, $x_{A} + x_{B} = 1$. So portfolio $R = x_{A}$
+
+Among many generated simulations, an efficient portfolio can be selected based on return or risk a project already set. Efficient Portfolios are expressed as an efficient frontier. We will see the efficient frontier line later. 
 
 ## 2. Example of Efficient Portfolio
 
