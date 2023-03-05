@@ -18,7 +18,18 @@ To understand the above condition formulas vividly, I'm going to set a portfolio
 Let $x_{A}$ and $x_{B}$ as portions of stock A and B each. That is, $x_{A} + x_{B} = 1$. So portfolio $R = x_{A}A + x_{B}B$. 
 A mean and variance of $R$ (a.k.a return and volatility) is as follow:
 1. $\mu_{R}=x_{A}\mu_{A}+x_{B}\mu_{B}$
-2. $Var(R)=x_{A}^{2}\sigma_{A}^{2}+x_{B}^{2}\sigma_{B}^{2}+2x_{A}x_{B}\sigma_{AB}$, $\sigma_{AB}$ is a covariance of $A$ and $B$. 
+2. $Var(R)=x_{A}^{2}\sigma_{A}^{2}+x_{B}^{2}\sigma_{B}^{2}+2x_{A}x_{B}\sigma_{AB}$
+
+We need to assume several information about stock $A$ and $B$. Means and Variances are as follow:
+
+1. $\mu_{A}=10\$,\mu_{B}=5\$$
+2. $\sigma_{A}=2\$,\sigma_{B}=2\$,\sigma_{AB}=1\$$
+
+If an investor wants to design an efficient portfolio given a return of 6 dollars, below is the condition formula for getting what he wants. 
+
+$$
+\min_{10x_{A}+5x_{B}=6}4x_{A}^{2}+4x_{B}^{2}+2x_{A}x_{B}\times1
+$$
 
 
 ## 3. Realistic example of Efficient Portfolio
