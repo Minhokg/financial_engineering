@@ -2,7 +2,7 @@
 
 This is a project for dealing with an efficient portfolio by using python.
 
-## 1. Definition of Efficient Portfolio.
+## 1. Definition of Efficient Portfolio
 
 An efficient portfolio is a portfolio (a combination of various financial assets) that offers the highest expected return for a given level of risk, or the lowest level of risk for a given expected return.
 
@@ -12,13 +12,19 @@ $$
 \min_{\mu_{p}=c}\sigma_{p}^{2}\text{ or }\max_{\sigma_{p}^{2}=c}\mu_{p}
 $$
 
-To understand the above condition formulas vividly, I'm going to set a portfolio comprised of two virtual stocks: A and B 
+## 2. Virtual example of Efficient Portfolio
+To understand the above condition formulas vividly, I'm going to set a portfolio comprised of two virtual stocks: $A$ and $B$ 
 
-Let $x_{A}$ and $x_{B}$ as portions of stock A and B each. That is, $x_{A} + x_{B} = 1$. So portfolio $R = x_{A}$
+Let $x_{A}$ and $x_{B}$ as portions of stock A and B each. That is, $x_{A} + x_{B} = 1$. So portfolio $R = x_{A}A + x_{B}B$. 
+A mean and variance of $R$ (a.k.a return and volatility) is as follow:
+1. $\mu_{R}=x_{A}\mu_{A}+x_{B}\mu_{B}$
+2. $Var(R)=x_{A}^{2}\sigma_{A}^{2}+x_{B}^{2}\sigma_{B}^{2}+2x_{A}x_{B}\sigma_{AB}$
+
+$\sigma_{AB}$ is a covariance of $A$ and $B$. 
 
 Among many generated simulations, an efficient portfolio can be selected based on return or risk a project already set. Efficient Portfolios are expressed as an efficient frontier. We will see the efficient frontier line later. 
 
-## 2. Example of Efficient Portfolio
+## 3. Realistic example of Efficient Portfolio
 
 In this project, I will tackle korean five companys: 
 1. LG Electronics
