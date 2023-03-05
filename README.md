@@ -22,7 +22,7 @@ A mean and variance of $R$ (a.k.a return and volatility) is as follow:
 
 We need to assume several information about stock $A$ and $B$. Means and Variances are as follow:
 
-1. $\mu_{A}=10\text{$},\mu_{B}=5\text{$}$
+1. $\mu_{A}=10\{$},\mu_{B}=5\{$}$
 2. $\sigma_{A}=2\text{$},\sigma_{B}=2\text{$},\sigma_{AB}=1\text{$}$
 
 If an investor wants to design an efficient portfolio given a return of 6 dollars, below is the condition formula for getting what he wants. 
