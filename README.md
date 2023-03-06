@@ -52,7 +52,21 @@ Because $X_{B} = 2 - 3x_{A}$ and $0\leq x_{B} \leq 1$, so the range of $x_{A}$ i
 
 We don't have to confine ourselves to a portfolio comprised of two shares. We can deal with arbitrary numbers of stocks through matrix algebra.
 
-Let's assume that stocks $S_i, (i\in I)$ has its own mean and standard deviation ($\mu_i, \sigma_i$).
+Let's assume that stocks $S_i, i\in I=(1,2,...,k)$ has its own mean and standard deviation ($\mu_i, \sigma_i$). So a portfolio $R$ has the following mean and standard deviation.
+
+$$
+\mu_{R}=\left[\begin{array}{c}
+\mu_{1}\\
+\mu_{2}\\
+\vdots\\
+\mu_{k}
+\end{array}\right],\sum_{R}=\left[\begin{array}{cccc}
+\sigma_{1}^{2} & \sigma_{12} & \cdots & \sigma_{1k}\\
+\sigma_{21} & \sigma_{2}^{2} & \cdots & \sigma_{2k}\\
+\vdots & \vdots & \ddots & \vdots\\
+\sigma_{k1} & \sigma_{k2} & \cdots & \sigma_{k}^{2}
+\end{array}\right]
+$$
 
 ## 4. Realistic example of Efficient Portfolio
 
