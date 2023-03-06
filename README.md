@@ -68,13 +68,32 @@ $$
 \end{array}\right]
 $$
 
-And if we set a weight vector as $\boldsymbol{x}=\left[\begin{array}{c}
+And if we set a weight vector as 
+
+$$
+\boldsymbol{x}=\left[\begin{array}{c}
 x_{1}\\
 x_{2}\\
 \vdots\\
 x_{k}
-\end{array}\right],\sum_{i\in I}x_{i}=1$,
+\end{array}\right],\sum_{i\in I}x_{i}=1
+$$
 
+The mean and the variance of portfolio $R$ is in such a way 
+
+$$
+\begin{align*}
+\mu_{R} & =\boldsymbol{x^{t}}\mu=\sum_{i\in I}x_{i}\mu_{i}\\
+\sigma_{R}^{2} & =\boldsymbol{x^{t}}\sum\boldsymbol{x}=\left[\begin{array}{cccc}
+x_{1} & x_{2} & \cdots & x_{k}\end{array}\right] \sum\left[\begin{array}{c}
+x_{1}\\
+x_{2}\\
+\vdots\\
+x_{k}
+\end{array}\right]\\
+= & \sum_{i\in I}x_{i}^{2}\sigma_{i}^{2}+2\sum_{i\neq j}x_{i}x_{j}\sigma_{ij}
+\end{align*}
+$$
 
 ## 4. Realistic example of Efficient Portfolio
 
