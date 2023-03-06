@@ -91,7 +91,7 @@ x_{2}\\
 \vdots\\
 x_{k}
 \end{array}\right]\\
-= & \sum_{i\in I}x_{i}^{2}\sigma_{i}^{2}+2\sum_{i\neq j}x_{i}x_{j}\sigma_{ij}
+ & =\sum_{i\in I}x_{i}^{2}\sigma_{i}^{2}+2\sum_{i\neq j}x_{i}x_{j}\sigma_{ij}
 \end{align*}
 $$
 
