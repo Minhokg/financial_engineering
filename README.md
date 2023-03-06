@@ -48,7 +48,13 @@ $$
 
 Because $X_{B} = 2 - 3x_{A}$ and $0\leq x_{B} \leq 1$, so the range of $x_{A}$ is like that. Fortunately, the root of the above formula is $\frac{4}{7}$, whici is in the range of $x_{A}$. In conclusion, an efficieint portfolio is comprised of $\frac{4}{7}A$ and $\frac{3}{7}B$
 
-## 3. Realistic example of Efficient Portfolio
+## 3. Generalized Efficient Portfolio
+
+We don't have to confine ourselves to a portfolio comprised of two shares. We can deal with arbitrary numbers of stocks through matrix algebra.
+
+Let's assume that stocks $S_i, (i\in I)$ has its own mean and standard deviation ($\mu_i, \sigma_i$).
+
+## 4. Realistic example of Efficient Portfolio
 
 In this project, I will tackle korean five companys: 
 1. LG Electronics
