@@ -97,9 +97,6 @@ $$
 
 So, to find out the most efficient portfolio, if we fix $\mu_{R} = \mu_0$, the below condition has to be solved.
 
-$$
-
-$$
 
 ## 4. Realistic example of Efficient Portfolio
 
